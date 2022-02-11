@@ -1,7 +1,9 @@
 .articleBox {
-    background: #23ffe073;
+    background: #23ffe024;
     padding: 20px 60px;
+    border-radius: 37px;
 }
+
 .articleBox-header {
     text-align: center;
 }
