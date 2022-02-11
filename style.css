@@ -30,6 +30,12 @@
   color: #fff;
 }
 
+.articleBox-img {
+    border-radius: 50%;
+    float: left;
+    margin: 0 50px 0 0;
+}
+
 .articleBox-list_title + dd {
   flex-basis: 70%;
   flex-grow: 1;
@@ -52,4 +58,20 @@
 
 .articleBox footer {
     padding-right: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .articleBox-img {
+        border-radius: 50%;
+        float: none;
+        margin: 22px auto;
+        display: block;
+        height: 16%;
+        max-width: 100%;
+    }
+
+    .articleBox {
+        padding: 20px 17px;
+    }
+
 }

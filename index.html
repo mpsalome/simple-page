@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400&display=swap"
@@ -20,6 +21,8 @@
                 <header class="articleBox-header">
                     <h3>O que sabemos sobre <span id="name"></span>:</h3>
                 </header>
+                <!-- Estou usando um placeholder mas a ideia seria uma foto do Erick Schimdt -->
+                <img class="articleBox-img" src="https://via.placeholder.com/150" alt="Foto de Erick Schimdt">
                 <p class="articleBox-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas
                     scelerisque ligula, quis ornare mauris egestas ut. Aliquam eu enim orci. Donec ante ligula, varius a
                     tellus rhoncus, fermentum pellentesque turpis. Suspendisse porta ex mi, ac bibendum ligula
@@ -57,6 +60,12 @@
             text-align: right;
             padding-right: 30px;
             margin-top: 20px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                font-size: .9em;
+            }
         }
     </style>
     <script src="./script.js"></script>
