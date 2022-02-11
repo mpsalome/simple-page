@@ -1,0 +1,48 @@
+.articleBox {
+    background: #23ffe073;
+    padding: 20px 60px;
+}
+.articleBox-header {
+    text-align: center;
+}
+
+.articleBox-paragraph {
+  margin: 0 0 20px 0;
+}
+.articleBox-list {
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid #333;
+}
+
+.articleBox-list_title {
+  flex-basis: 20%;
+  padding: 2px 4px;
+  background: #333;
+  text-align: right;
+  color: #fff;
+}
+
+.articleBox-list_title + dd {
+  flex-basis: 70%;
+  flex-grow: 1;
+  margin: 0;
+  padding: 2px 4px;
+  border-bottom: 1px solid #333;
+  background-color: #fff;
+}
+
+.articleBox-list_title--inverse {
+  background: #fff;
+  text-align: right;
+  color: #333;
+}
+
+.articleBox-list_title--inverse + dd{
+  background: #333;
+  color: #fff;
+}
+
+.articleBox footer {
+    padding-right: 0;
+}

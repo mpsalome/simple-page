@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <title>Página Simples</title>
+    <!-- Exemplo de css externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <!-- Exemplo de CSS Inline -->
+        <h1 style="font-family: 'Bebas Neue', cursive; letter-spacing: 2px; text-align: center;">Lorem Ipsum</h1>
+        <section>
+            <h2>Artigos sobre Pessoas</h2>
+            <article id="article" class="articleBox">
+                <header class="articleBox-header">
+                    <h3>O que sabemos sobre <span id="name"></span>:</h3>
+                </header>
+                <p class="articleBox-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas
+                    scelerisque ligula, quis ornare mauris egestas ut. Aliquam eu enim orci. Donec ante ligula, varius a
+                    tellus rhoncus, fermentum pellentesque turpis. Suspendisse porta ex mi, ac bibendum ligula
+                    scelerisque ut. Ut a hendrerit dolor. Mauris tempus erat id magna mattis vestibulum. Phasellus eget
+                    justo at ipsum molestie eleifend pulvinar iaculis velit.
+                </p>
+                <dl class="articleBox-list">
+                    <dt class="articleBox-list_title">Idade</dt>
+                    <dd id="age"></dd>
+                    <dt class="articleBox-list_title articleBox-list_title--inverse">Altura</dt>
+                    <dd id="height"></dd>
+                </dl>
+                <footer>
+                    Artigo escrito por Marcus Salomé
+                </footer>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        Página feita por Marcus Salomé
+    </footer>
+    <!-- Exemplo de css incorporado ao arquivo -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        section {
+            padding: 0 30px;
+        }
+
+        footer {
+            font-size: 11px;
+            text-align: right;
+            padding-right: 30px;
+            margin-top: 20px;
+        }
+    </style>
+    <script src="./script.js"></script>
+</body>
+
+</html>
