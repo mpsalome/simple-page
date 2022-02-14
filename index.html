@@ -19,10 +19,14 @@
             <h2>Artigos sobre Pessoas</h2>
             <article id="article" class="articleBox">
                 <header class="articleBox-header">
+                    <!-- Como span não tem significado semantico e é naturalmente um elemento inline, eu resolvi utiliza-lo para aplicar um efeito diferente dentro do H3 -->
                     <h3>O que sabemos sobre <span id="name"></span>:</h3>
                 </header>
-                <!-- Estou usando um placeholder mas a ideia seria uma foto do Erick Schimdt -->
-                <img class="articleBox-img" src="https://via.placeholder.com/150" alt="Foto de Erick Schimdt">
+                <!-- Usando uma div como container para a imagem -->
+                <div class="articleBox-img">
+                    <!-- Estou usando um placeholder mas a ideia seria uma foto do Erick Schimdt -->
+                    <img src="https://via.placeholder.com/150" alt="Foto de Erick Schimdt">
+                </div>
                 <p class="articleBox-paragraph"> Dica: olhe no console do devtools para ver o resultado das funções JavaScript.
                 </p>
                 <dl class="articleBox-list">

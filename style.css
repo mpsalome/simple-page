@@ -2,6 +2,7 @@
     background: #23ffe024;
     padding: 20px 60px;
     border-radius: 37px;
+    overflow: hidden;
 }
 
 #name {
@@ -29,11 +30,16 @@
   text-align: right;
   color: #fff;
 }
-
 .articleBox-img {
+  margin: 0 50px 0 0;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.articleBox-img img{
     border-radius: 50%;
-    float: left;
-    margin: 0 50px 0 0;
 }
 
 .articleBox-list_title + dd {
@@ -62,10 +68,13 @@
 
 @media only screen and (max-width: 600px) {
     .articleBox-img {
+      float: none;
+      margin: 22px auto;
+
+    }
+
+    .articleBox-img img{
         border-radius: 50%;
-        float: none;
-        margin: 22px auto;
-        display: block;
         height: 16%;
         max-width: 100%;
     }
